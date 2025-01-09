@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="314.0" prefWidth="658.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.fileuploaderspringbootjavafx.controller.MainController">
+   <children>
+      <ListView fx:id="listViewServerFilesAndDirs" layoutX="362.0" layoutY="49.0" prefHeight="200.0" prefWidth="286.0" />
+      <ListView fx:id="listViewClientFilesAndDirs" layoutX="11.0" layoutY="49.0" prefHeight="200.0" prefWidth="286.0" />
+      <Label fx:id="labelServerPath" layoutX="386.0" layoutY="22.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="labelClientPath" layoutX="14.0" layoutY="22.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="125.0" layoutY="264.0" mnemonicParsing="false" onAction="#addClientFolder" prefHeight="31.0" prefWidth="85.0" text="add folder" />
+      <Button layoutX="449.0" layoutY="262.0" mnemonicParsing="false" onAction="#addServerFolder" prefHeight="31.0" prefWidth="86.0" text="add folder" />
+      <Button fx:id="buttonBackToUsers" layoutX="277.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonBackToUsers" text="back to users" />
+      <ImageView fx:id="buttonDownLoad" fitHeight="42.0" fitWidth="65.0" layoutX="295.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@left2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="buttonUpload" fitHeight="42.0" fitWidth="65.0" layoutX="298.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@right2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonExit" layoutX="309.0" layoutY="264.0" mnemonicParsing="false" onAction="#buttonExit" text="Exit" />
+   </children>
+</AnchorPane>

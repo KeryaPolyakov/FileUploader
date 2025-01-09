@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact name="FileUploaderSpringBootJavaFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileUploaderSpringBootJavaFX_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FileUploaderSpringBootJavaFX.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="FileUploaderSpringBootJavaFX" />
+      </element>
+      <element id="library" level="project" name="Maven: net.lingala.zip4j:zip4j:2.9.0" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:19" />
+      <element id="library" level="project" name="Maven: com.squareup.retrofit2:converter-jackson:2.9.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:19" />
+      <element id="library" level="project" name="Maven: com.squareup.retrofit2:retrofit:2.9.0" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:19" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.9" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:19" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:19" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:19" />
+    </root>
+  </artifact>
+</component>

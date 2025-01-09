@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="113.0" prefWidth="168.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.fileuploaderspringbootjavafx.controller.AddFolderController">
+   <children>
+      <TextField fx:id="textFieldName" layoutX="10.0" layoutY="40.0" />
+      <Label layoutX="71.0" layoutY="11.0" text="Name" />
+      <Button fx:id="buttonAddFolder" layoutX="66.0" layoutY="74.0" mnemonicParsing="false" onAction="#buttonAddFolder" text="add" />
+   </children>
+</AnchorPane>

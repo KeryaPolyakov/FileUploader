@@ -1,0 +1,51 @@
+### add Admin
+POST localhost:8080/admin
+Content-Type: application/json
+
+{
+  "type" : "admin",
+  "userName": "s",
+  "password": "s",
+  "fio": "b"
+}
+
+### add SimpleUser
+POST localhost:8080/simpleUser
+Content-Type: application/json
+
+{
+  "type" : "simpleUser",
+  "userName": "a",
+  "password": "a",
+  "fio": "a"
+}
+
+### Get User
+GET localhost:8080/user/2
+
+
+### add UserDirectory
+POST localhost:8080//userDirectory
+Authorization: Basic a a
+Content-Type: application/json
+
+
+### add UserFile
+POST localhost:8080/userFile/4
+Content-Type: application/json
+
+{
+  "type" : "userFile",
+  "name" : "2first"
+}
+
+### get File or Dir by id
+GET localhost:8080/parentFile/get/2
+
+### get all ojects in dir
+GET localhost:8080/parentFile/1
+
+### delete SimpleDir
+DELETE localhost:8080/simpleDirectory/2/2
+
+

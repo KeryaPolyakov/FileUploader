@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="242.0" prefWidth="226.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.fileuploaderspringbootjavafx.controller.AuthorisationController">
+   <children>
+      <Button fx:id="buttonSignIn" layoutX="85.0" layoutY="147.0" mnemonicParsing="false" onAction="#buttonSignIn" text="Войти" />
+      <TextField fx:id="textFieldLogin" layoutX="37.0" layoutY="44.0" />
+      <TextField fx:id="textFieldPassword" layoutX="37.0" layoutY="106.0" />
+      <Label layoutX="95.0" layoutY="16.0" text="Логин">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="91.0" layoutY="80.0" text="Пароль">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="buttonSignUp" layoutX="62.0" layoutY="185.0" mnemonicParsing="false" onAction="#buttonSignUp" text="Регистрация" />
+   </children>
+</AnchorPane>
