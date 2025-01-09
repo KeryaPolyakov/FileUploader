@@ -33,5 +33,5 @@
 ![Переименовать, удалить директорию](https://github.com/user-attachments/assets/c732f28e-188c-46f9-8cf0-9a67d8f19810)
 
 ### Скачать файл или директорию. Права: Администратор, пользователь только себе
-![Скачать файл или директорию](https://github.com/user-attachments/assets/da2d10d2-eafa-4c51-825e-b96f4cb431f2)
+![Скачать файл или директорию](https://github.com/user-attachments/assets/da2d10d2-eafa-4c51-825e-b96f4cb431f2) 
 
